@@ -1,0 +1,45 @@
+README for Canadian Baby Name Database(CBND):
+
+INTRODUCTION
+Canadian Baby Name Database is a data scraping project which cleans up all the recorded baby names
+in the canadian provinces. This project is meant for those seeking to learn about the trends of baby
+names overtime throughout the provinces New Brunswick, NewFoundLand, Nova Scotia, Ontario, Quebec, British
+Columbia, and Alberta, whether for corporational development or personal interest. 
+
+PREREQUISITES
+Before you continue, ensure you have met the following:
+   - You have installed the latest version of Python.
+   - You have downloaded pandas and matplotlib on your terminal.
+   - You are connected to a proper wifi network.
+   - You do not click the exit button on the window unless you would like to exit the program.
+
+INSTALLATIONS
+In order to install the required libraries, first ensure you have opened the program in a terminal, then
+into the command promp paste the following in order to install pandas: "pip install pandas". Once complete, 
+in order to install matplotlib paste the following into the command prompt: "pip3 install matplotlib". Ensure you have executable permissions for all files. 
+
+USAGE
+Once you are ready to use the program, go into command prompt and type in "./main.py". In the case an error
+message pops up, try this: "chmod 777 ./main.py". After this prompt, type in once again "./main.py", in the
+case an error pops up again, refer back to our prerequisites as well as installations subheadings to seek
+assistance. 
+After "./main.py" has successfully prompted you with a menu, you may pick any of the values prompted for a 
+desired result. Some menu functionalities may prompt you with an option for provincial choice, sex choice, as
+well as year choice, continue inputting desired prompts. 
+In order to exit the menu as well as the system, you may type in "1111", as stated at the bottom of the displayed 
+menu. In the case that the wrong menu option was accessesed, you may type in 1111 to exit the system, and replay
+the program using "./main.py" once again. 
+   Exceptions
+    - Graph function will cause issues if a unique name is entered for provinces.
+    - Quebec dataset load slowly, but eventually do load. Beware of time constraints when executing. 
+    - Exit functionaility at choosing sex stage has issues if it is not question 1.
+
+CONTRIBUTORS
+Amy Beard, Arwin Muraleetharan, Sukhman Kaur.
+
+CONTACT
+If you have any problems, questions, ideas, or suggestions, don't hesitate to contact our contributors at either:
+sukhmanp@uoguelph.ca OR abear02@uoguelph.ca OR muraleetharan@uoguelph.ca
+
+ACKNOWLEDGEMENTS
+Deborah Stacey: University of Guelph Instructor, Software Design 2 (CIS2250) Teaching Assistants.
